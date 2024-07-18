@@ -11,6 +11,8 @@ const SearchBar = ({ onSearch }) => {
   const handleSearch = () => {
     if (query.trim() !== "") {
       onSearch(query);
+    } else {
+      alert("Enter valid input!");
     }
   };
 
