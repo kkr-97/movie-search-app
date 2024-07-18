@@ -17,16 +17,20 @@ This project is a React application that allows users to search for movies using
 - npm or yarn
 
 ## Components
--App
+- App:
+  
 The main entry point of the application. Renders the header and the MovieSearchApp component.
 
--MovieSearchApp
+- MovieSearchApp:
+  
 Handles the search functionality and state management for movies and loading status. Renders the SearchBar and MovieCard components.
 
--SearchBar
+- SearchBar:
+  
 A simple input and button component for entering and submitting search queries. Calls the onSearch prop function when a search is initiated.
 
--MovieCard
+- MovieCard:
+
 Displays individual movie details along with a random dog image. Uses the react-spinners library to show a loading spinner while fetching the dog image.
 
 ## API
